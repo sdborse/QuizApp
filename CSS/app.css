@@ -1,0 +1,19 @@
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+h1{
+	font-size: 5.4rem;
+	font-weight: 500;
+	color: #56a5eb;
+}
+
+.form-group{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

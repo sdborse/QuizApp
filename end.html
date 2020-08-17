@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Finished..</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<!--JQuerry-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="CSS\app.css">
+	<link rel="stylesheet" type="text/css" href="CSS\game.css">
+	<link rel="stylesheet" type="text/css" href="CSS\end.css">
+</head>
+<body>
+	<div class="container">
+		<div id="end">
+			<h1 id="finalScore">0</h1>
+			<form class="form">
+				<div class="form-group">
+					<input type="text" name="username" id="username" placeholder="User Name" class="form-control">
+				</div>	
+				<div class="form-group">
+					<button class="btn btn-success form-control" disabled id="saveButton" onclick="saveHighScore(event)">Save</button>
+				</div>
+			</form>
+			<div>
+				<a href="game.html" class="btn btn-success">Play Again</a>
+			</div>
+			<div>
+				<a href="index.html" class="btn btn-success">Go Home</a>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="JavaScript\end.js"></script>
+</body>
+</html>
